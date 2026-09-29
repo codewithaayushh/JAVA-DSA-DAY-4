@@ -1,0 +1,79 @@
+Java Practice Notes - Day 05
+===========================
+
+This folder contains beginner Java programs focused on loops, conditional control, and basic input/output.
+
+1. breakC.java
+   - Demonstrates the use of break inside a for loop.
+   - The loop runs from 1 to 9.
+   - When i == 3, the break statement stops the loop immediately.
+   - Output: "Thanku" prints for values 1 and 2, then the loop stops and "Out" is printed.
+
+2. breakProblem.java
+   - Uses Scanner to take user input.
+   - A do-while loop keeps asking for a number until a number divisible by 10 is entered.
+   - When num % 10 == 0, break stops the loop.
+   - This is a simple example of using break to exit a loop based on a condition.
+
+3. continew.java
+   - Demonstrates the use of continue inside a for loop.
+   - The loop runs from 0 to 10.
+   - When i == 3, continue skips the print statement and moves to the next number.
+   - So numbers 0,1,2,4,5,6,7,8,9,10 are printed, while 3 is skipped.
+
+4. doWhile.java
+   - Demonstrates a do-while loop.
+   - The code prints numbers starting from 1.
+   - The loop runs at least once before checking the condition.
+   - It prints 1 to 10.
+
+5. forLoop.java
+   - Contains a basic for loop example.
+   - The loop prints "Hello World" nine times.
+   - Shows the standard structure of a for loop: initialization, condition, update.
+
+6. print1to10.java
+   - Prints numbers from 1 to 10 using a while loop.
+   - counter starts at 1 and increments by 1 each time.
+   - The loop stops when counter becomes 11.
+
+7. print1ton.java
+   - Prompts the user to enter a number n.
+   - The program prints numbers from 1 to n using a while loop.
+   - This shows how to read user input and use it in loop conditions.
+
+8. printReverse.java
+   - Reads an integer from the user.
+   - Uses a while loop to reverse the digits one by one.
+   - Example: 123 becomes 321.
+   - This is a common example for learning modulus and division operations.
+
+9. questions.java
+   - Uses a do-while loop with user input.
+   - Every time the user enters a number, it checks whether the number is divisible by 10.
+   - If divisible by 10, continue skips the print statement.
+   - Otherwise, it prints the entered number.
+
+10. squarepattern.java
+    - Prints a square pattern using a while loop.
+    - The program prints "****" 4 times in separate lines.
+    - This is a beginner pattern program.
+
+11. sumofN.java
+    - Reads a number n from the user.
+    - Uses a while loop to calculate the sum of numbers from 1 to n.
+    - Example: if n = 5, sum = 1 + 2 + 3 + 4 + 5 = 15.
+
+12. whileLoop.java
+    - Demonstrates a while loop.
+    - The loop condition is counter < 100.
+    - However, the counter increment is placed after the loop body, so the loop logic is incorrect and may cause an infinite loop.
+    - This file is useful for understanding how loop conditions and updates must be managed carefully.
+
+13. primeNum.java
+    - This file is currently empty.
+    - It may be intended for future practice related to prime number checking.
+
+Summary:
+- Topics covered: for loop, while loop, do-while loop, break, continue, Scanner input, pattern printing, reverse number, and sum calculation.
+- This folder is mainly focused on understanding control flow in Java.
